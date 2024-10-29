@@ -1,0 +1,142 @@
+#img_menu_mobile {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  #menue_desktop {
+    display: none;
+  }
+  #nav_mobile {
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+  }
+  #img_menu_mobile {
+    display: block;
+  }
+  #section1_mobile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 30px;
+  }
+  #img_section1_mobile {
+    width: 95%;
+  }
+  #chape_mobile {
+    width: 300px;
+    height: 200px;
+    bottom: 160px;
+  }
+  #p1_mobile {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+  }
+  #p2_mobile {
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+  }
+  #button_seciton1_mobile {
+    margin-left: 90px;
+    gap: 10px;
+  }
+  #p2_section2_mobile {
+    width: 320px;
+  }
+  #links_secition2_mobile {
+    flex-direction: column;
+    gap: 0;
+    border: 0;
+    align-items: center;
+  }
+  #links_secition2_mobile a {
+    position: relative;
+    padding: 6px;
+    border-bottom: 2px solid hsl(229, 8%, 60%);
+  }
+  #links_secition2_mobile a :hover ::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background-color: hsl(0, 94%, 66%);
+    cursor: pointer;
+    color: hsl(229, 31%, 21%);
+  }
+  #section3_mobile {
+    flex-direction: column;
+    margin-left: 39px;
+  }
+  #img_section3_mobile {
+    width: 300px;
+  }
+  #dispo_section3_mobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -128px;
+    margin-top: 90px;
+  }
+  #chape2_mobile {
+    width: 300px;
+    height: 150px;
+  }
+  #section4_mobile {
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  #p2_section4_mobile {
+    width: 300px;
+  }
+  #carts_mobile {
+    flex-direction: column;
+    width: 200px;
+    margin-left: 80px;
+  }
+  #dipo_section5_mobile {
+    width: 335px;
+  }
+  #p2_section5_mobile {
+    width: 326px;
+    margin-bottom: 100px;
+  }
+  #p_question {
+    display: none;
+  }
+  #p2_section6_mobile {
+    font-size: 30px;
+  }
+  #section6_mobile {
+    gap: 15px;
+  }
+  #inputdiv_mobile {
+    flex-direction: column;
+    gap: 15px;
+  }
+  #input_section6 {
+    height: 40px;
+  }
+  #button_seciton6_mobile {
+    width: 300px;
+    height: 40px;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  #div1_footer {
+    flex-direction: column;
+  }
+  #icons_footer{
+    gap: 50px;
+  }
+}
